@@ -17,13 +17,13 @@ html, body{
     width: 100%;
 }
 #main{
-    height: 335vw;
+    height: 365vw;
     width: 100%;
     padding: 5vw 5vw;
     background-color: #054F5E;
 }
 #wraper{
-    height: 325vw;
+    height: 355vw;
     width: 100%;
     border: 0.5vw solid #000;
     border-radius: 1vw;
@@ -628,12 +628,47 @@ html, body{
 #img-container6 .right-img .images img{
     height: 23vw;
     border-radius: 2vw;
+    /* border-radius: 5vw; */
 }
 
 /* image container6 ended */
 
 /* marque started */
+/* img-container8 started */
 
+#img-container8{
+    height: 35vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 0.1vw; */
+}
+#img-container8 .img1{
+    height: 35vw;
+    width: 65%;
+    /* background-color: red; */
+}
+#img-container8 .img1 img{
+    height: 35vw;
+    width: 100%;
+    padding: 3vw;
+    object-fit: cover;
+    border-radius: 5vw;
+    /* padding-right: 10vw; */
+}
+#img-container8 .img2{
+    height: 35vw;
+    width: 35%;
+}
+#img-container8 .img2 img{
+    height: 35vw;
+    width: 100%;
+    padding: 3vw;
+    object-fit: cover;
+    border-radius: 5vw;
+}
+/* img-container8 photo ended here */
 #marque{
     height: 5vw;
     width: 100%;
@@ -692,6 +727,7 @@ html, body{
     width: 100%;
     object-fit: cover;
     padding: 2.9vw;
+    border-radius: 5vw;
 }
 #img-container7 #letter1{
     height: 4vw;
@@ -817,16 +853,13 @@ html, body{
 
 @media (max-width: 600px) {
     #main{
-        height: 345vw;
+        height: 370vw;
         width: 100%;
-        
     }
     #wraper{
-        height: 333vw;
+        height: 360vw;
         width: 100%;
-        
     }
-
     #overlay .border-bottom{
         gap: 66vw;
     }
